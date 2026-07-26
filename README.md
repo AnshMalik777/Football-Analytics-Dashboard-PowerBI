@@ -1,20 +1,20 @@
 # ⚽ Football Analytics Dashboard | Power BI
 
-An interactive Football Analytics Dashboard built using **Power BI, DAX, Python, and Excel** to analyze player, team, and league performance across the **Top 5 European Football Leagues (2024/25 Season).**
+An interactive Football Analytics Dashboard built using **Power BI, DAX, Python, Excel, and Google Colab** to analyze player, team, and league performance across the **Top 5 European Football Leagues (2024/25 Season).**
 
 ---
 
 ## 📖 Project Overview
 
-This project combines football analytics with business intelligence to transform raw football data into interactive dashboards and actionable insights.
+This project transforms football data into an interactive Power BI dashboard that provides valuable insights into player, team, and league performance.
 
-The dashboard enables users to explore:
+The dashboard includes:
 
-- 👤 Player Performance
-- ⚽ Goal Scorer Analysis
+- 👤 Player Analysis
+- ⚽ Scorer Analysis
 - 🎯 Playmaker Analysis
 - 🏟️ Team Analysis
-- 🌍 League Comparison
+- 🌍 League Analysis
 - 📊 Interactive KPIs & Visualizations
 
 ---
@@ -30,7 +30,7 @@ The dashboard enables users to explore:
 
 ---
 
-## 📈 Football Metrics Used
+## 📈 Football Metrics
 
 - Goals
 - Assists
@@ -50,71 +50,79 @@ The dashboard enables users to explore:
 ## 📂 Repository Structure
 
 ```text
-Dashboard/
-    Football_Analytics_Dashboard.pbix
-
-Dataset/
-    Cleaned_Dataset.xlsx
-
-Python/
-    Data_Extraction.ipynb
-    Data_Cleaning.ipynb
-
-Image/
-    Dashboard Screenshots
-
-Documentation/
-    Project Report
-    Presentation
+Football-Analytics-Dashboard-PowerBI
+│
+├── Dashboard
+│   └── Football_Analytics_Dashboard.pbix
+│
+├── Dataset
+│   └── Cleaned_Dataset.xlsx
+│
+├── Python
+│   ├── Data_Extraction.ipynb
+│   └── Data_Cleaning.ipynb
+│
+├── Gallery
+│   ├── Home_Dashboard.png
+│   ├── Player_Analysis.png
+│   ├── Playmaker_Analysis.png
+│   ├── Scorer_Analysis.png
+│   ├── League_Analysis.png
+│   └── Team_Analysis.png
+│
+├── Documentation
+│
+├── README.md
+└── LICENSE
 ```
 
 ---
 
-## 📷 Dashboard Preview
+# 📷 Dashboard Gallery
 
-### 🏠 Home Dashboard
+<p align="center">
+  <img src="Gallery/Home_Dashboard.png" width="48%">
+  <img src="Gallery/Player_Analysis.png" width="48%">
+</p>
 
-![Home Dashboard](Image/Home_Dashboard.png)
+<p align="center">
+  <img src="Gallery/Scorer_Analysis.png" width="48%">
+  <img src="Gallery/Playmaker_Analysis.png" width="48%">
+</p>
 
-### 👤 Player Analysis
-
-![Player Analysis](Image/Player_Analysis.png)
-
-### ⚽ Scorer Analysis
-
-![Scorer Analysis](Image/Scorer_Analysis.png)
-
-### 🎯 Playmaker Analysis
-
-![Playmaker Analysis](Image/Playmaker_Analysis.png)
-
-### 🌍 League Analysis
-
-![League Analysis](Image/League_Analysis.png)
-
-### 🏟️ Team Analysis
-
-![Team Analysis](Image/Team_Analysis.png)
+<p align="center">
+  <img src="Gallery/League_Analysis.png" width="48%">
+  <img src="Gallery/Team_Analysis.png" width="48%">
+</p>
 
 ---
 
 ## 🚀 Key Features
 
-- Interactive slicers
+- Interactive dashboard with slicers
 - Dynamic DAX measures
-- KPI Cards
-- Scatter Plots
-- Team Style Profiles
-- Player Performance Profiles
-- Football Performance Metrics
-- League Comparison Dashboard
+- Player performance profiling
+- Scorer and playmaker comparison
+- Team tactical analysis
+- League comparison dashboard
+- KPI cards and advanced visualizations
 
 ---
 
 ## 📊 Data Source
 
-- Understat (2024/25 Season)
-- Additional preprocessing performed using Python and Excel.
+- Understat (Top 5 European Leagues – 2024/25)
+- Data cleaned and transformed using Python and Excel.
+
+---
+
+## 📌 Future Improvements
+
+- Passing Network Analysis
+- Shot Maps
+- Player Similarity Model
+- Team Comparison Dashboard
+- Predictive Analytics using Machine Learning
 
 ---
 
@@ -122,4 +130,4 @@ Documentation/
 
 **Ansh Malik**
 
-If you found this project interesting, feel free to ⭐ the repository.
+If you found this project useful, please consider giving it a ⭐ on GitHub.
