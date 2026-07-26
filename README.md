@@ -1,4 +1,3 @@
-# Football-Analytics-Dashboard-PowerBI
 # ⚽ Football Analytics Dashboard | Power BI
 
 An interactive Football Analytics Dashboard built using **Power BI, DAX, Python, and Excel** to analyze player, team, and league performance across the **Top 5 European Football Leagues (2024/25 Season).**
@@ -61,7 +60,7 @@ Python/
     Data_Extraction.ipynb
     Data_Cleaning.ipynb
 
-Images/
+Image/
     Dashboard Screenshots
 
 Documentation/
@@ -75,27 +74,27 @@ Documentation/
 
 ### 🏠 Home Dashboard
 
-![Home Dashboard](Images/Home_Dashboard.png)
+![Home Dashboard](Image/Home_Dashboard.png)
 
 ### 👤 Player Analysis
 
-![Player Analysis](Images/Player_Analysis.png)
+![Player Analysis](Image/Player_Analysis.png)
 
 ### ⚽ Scorer Analysis
 
-![Scorer Analysis](Images/Scorer_Analysis.png)
+![Scorer Analysis](Image/Scorer_Analysis.png)
 
 ### 🎯 Playmaker Analysis
 
-![Playmaker Analysis](Images/Playmaker_Analysis.png)
+![Playmaker Analysis](Image/Playmaker_Analysis.png)
 
 ### 🌍 League Analysis
 
-![League Analysis](Images/League_Analysis.png)
+![League Analysis](Image/League_Analysis.png)
 
 ### 🏟️ Team Analysis
 
-![Team Analysis](Images/Team_Analysis.png)
+![Team Analysis](Image/Team_Analysis.png)
 
 ---
 
